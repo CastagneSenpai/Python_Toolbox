@@ -38,7 +38,7 @@ def write_CSV_OutputFile(all_data):
             writer.writerow(row)
 
 
-def main(json_file, prefixe_tagName):
+def main(json_file, prefixe_tagName, suffixe_tagName):
     # Chargement du fichier input du MES (format Json)
     data = load_Json(json_file)
 
@@ -47,8 +47,9 @@ def main(json_file, prefixe_tagName):
 
     # Informations du Work Order (WO)
     WorkOrder_StartDate = get_WO_Dates(data, "StartDate")
+    
     Reference_Value = data[0]['Reference']
-    Reference_TagName = prefixe_tagName + 'Reference'
+    Reference_TagName = prefixe_tagName + 'Reference' + suffixe_tagName
 
     all_data.append([Reference_TagName, Reference_Value, WorkOrder_StartDate])
 
@@ -56,9 +57,9 @@ def main(json_file, prefixe_tagName):
     for job in data[0]['DataHeader']:
         job_TimeStamp = job['Properties'][0]['Value']
         jobID_Value = job['JobID']
-        JobID_TagName = prefixe_tagName + 'JobID'
+        JobID_TagName = prefixe_tagName + 'JobID' + suffixe_tagName
         segmentName_Value = job['SegmentName']
-        segmentName_TagName = prefixe_tagName + 'SegmentName'
+        segmentName_TagName = prefixe_tagName + 'SegmentName' + suffixe_tagName
 
         all_data.append([JobID_TagName, jobID_Value, job_TimeStamp])
         all_data.append([segmentName_TagName, segmentName_Value, job_TimeStamp])
@@ -66,15 +67,14 @@ def main(json_file, prefixe_tagName):
         # Informations des propriétés des jobs
         for property in job['Properties']:
             property_Name = property['PropertyID'] #Ex: STARTDATE, ENDDATE, NUMOFDAY, TYPEOFPROD, DUREEPROD
-            property_TagName = prefixe_tagName + property_Name
+            property_TagName = prefixe_tagName + property_Name + suffixe_tagName
             property_Value = property['Value']
 
             all_data.append([property_TagName, property_Value, job_TimeStamp])
 
     write_CSV_OutputFile(all_data)
-    input("Fin de la fonction principale, appuyer sur une touche pour fermer")
+    input("Fin de la fonction principale, appuyer sur une touche pour fermer.")
     
-
 # Call the main method properly
 if __name__ == "__main__":
-    main('JSON_Tracabilite.json', 'ACCBBD_V1_MES_MIA_Ligne1_')
+    main('JSON_Tracabilite.json', 'ACCBBD_V1_MES_MIA_Ligne1_', '.PV')
