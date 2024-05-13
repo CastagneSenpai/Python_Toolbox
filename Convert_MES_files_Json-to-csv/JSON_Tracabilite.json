@@ -1,0 +1,313 @@
+[
+
+    {
+
+        "Reference": "Numéro du WO",
+
+        "ReferenceType": "wo",
+
+        "MessageType": "Genealogy",
+
+        "WorkCenterName": "Code du WorkCenter",
+
+        "CreateDate": "Date de création du WO en UTC",
+
+        "BomID": "Numéro d'item associé au WO -> Article intermédiaire",
+
+        "BomVersion": "Numéro d'item associé au WO -> Article intermédiaire",
+
+        "DataHeader": [
+
+            {
+
+				"JobID": "Numéro du Job 1",
+
+                "SegmentName": "Code du WorkCenter si Mixing et WorkUnit si autre",
+
+                "Properties": [
+
+                    {
+
+                        "PropertyID": "STARTDATE",
+
+                        "Value": "Date de démarrage du WO en UTC",									
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table WO en UTC"									
+
+                    },
+
+                    {
+
+                        "PropertyID": "ENDDATE",
+
+                        "Value": "Date de fin du WO en UTC",										
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table job en UTC"										
+
+                    },
+
+                    {
+
+                        "PropertyID": "NUMOFDAY",													
+
+                        "Value": "Numéro du jour de démarrage du WO",
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table WO en UTC"
+
+                    },
+
+                    {
+
+                        "PropertyID": "TYPEOFPROD",
+
+                        "Value": "TEST",
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table WO en UTC"
+
+                    },
+
+                    {
+
+                        "PropertyID": "DUREEPROD",
+
+                        "Value": "02:37",
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table WO en UTC"
+
+                    }
+
+                ],
+
+                "Data": [
+
+                    {
+
+                        "Lot": {
+
+                            "LotID": "Numéro de lot",
+
+							"SublotID": "Numéro de sous-lot si existe si non null",
+
+                            "MaterialID": "Item associé au lot",
+
+                            "Unit": "unité de l'item associé au lotkg",
+
+                            "Supplier": "supplier associé au lot si existe",
+
+                            "ExpiryDate": "Date d'expiration en UTC si existe",
+
+                            "Properties": [
+
+                                {
+
+                                    "Property": {
+
+										"Property_Id": "Nom de la propriété fonction des gammes de propriété",
+
+                                        "Description": "description associée",
+
+                                        "Value": "valeur associée"
+
+                                    }
+
+                                }
+
+                            ],
+
+                            "MaterialTracabilities": [
+
+                                {
+
+                                    "MaterialTracabilityID": "raw id interne MES",
+
+                                    "Type": "CONSUME | PRODUCE",
+
+									"FinishedGoodLotID": "null si produce et = numéro de lot de l'élément produit auquel est associé la consommation",							
+
+									"FinishedGoodSublotID": "null si produce et = numéro de sous-lot de l'élément produit auquel est associé la consommation",					
+
+                                    "Quantity": "Quantité produite ou utilistée",
+
+                                    "CreateDate": "2023-09-20T08:21:49.193",
+
+                                    "CreateUsername": "A0001821",
+
+									"QualityStatus": "Grade qualité : UNKNOWN, GOOD, ACCEPTABLE, BAD",
+
+									"QualitySymptomCode" : "Null si pas BAD",
+
+									"Comment" : "Commentaire associé au statut ACCEPTABLE, BAD",
+
+                                    "DeviationName": null
+
+                                }
+
+                            ]
+
+                        }
+
+                    }
+
+                ]
+
+            },
+			
+            {
+
+				"JobID": "Numéro du Job 2",
+
+                "SegmentName": "Code du WorkCenter si Mixing et WorkUnit si autre",
+
+                "Properties": [
+
+                    {
+
+                        "PropertyID": "STARTDATE",
+
+                        "Value": "Date de démarrage du WO en UTC",									
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table WO en UTC"									
+
+                    },
+
+                    {
+
+                        "PropertyID": "ENDDATE",
+
+                        "Value": "Date de fin du WO en UTC",										
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table job en UTC"										
+
+                    },
+
+                    {
+
+                        "PropertyID": "NUMOFDAY",													
+
+                        "Value": "Numéro du jour de démarrage du WO",
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table WO en UTC"
+
+                    },
+
+                    {
+
+                        "PropertyID": "TYPEOFPROD",
+
+                        "Value": "TEST",
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table WO en UTC"
+
+                    },
+
+                    {
+
+                        "PropertyID": "DUREEPROD",
+
+                        "Value": "02:37",
+
+                        "Username": "User d'édition de la table WO",										
+
+                        "SaveDate": "Date d'édition de la table WO en UTC"
+
+                    }
+
+                ],
+
+                "Data": [
+
+                    {
+
+                        "Lot": {
+
+                            "LotID": "Numéro de lot",
+
+							"SublotID": "Numéro de sous-lot si existe si non null",
+
+                            "MaterialID": "Item associé au lot",
+
+                            "Unit": "unité de l'item associé au lotkg",
+
+                            "Supplier": "supplier associé au lot si existe",
+
+                            "ExpiryDate": "Date d'expiration en UTC si existe",
+
+                            "Properties": [
+
+                                {
+
+                                    "Property": {
+
+										"Property_Id": "Nom de la propriété fonction des gammes de propriété",
+
+                                        "Description": "description associée",
+
+                                        "Value": "valeur associée"
+
+                                    }
+
+                                }
+
+                            ],
+
+                            "MaterialTracabilities": [
+
+                                {
+
+                                    "MaterialTracabilityID": "raw id interne MES",
+
+                                    "Type": "CONSUME | PRODUCE",
+
+									"FinishedGoodLotID": "null si produce et = numéro de lot de l'élément produit auquel est associé la consommation",							
+
+									"FinishedGoodSublotID": "null si produce et = numéro de sous-lot de l'élément produit auquel est associé la consommation",					
+
+                                    "Quantity": "Quantité produite ou utilistée",
+
+                                    "CreateDate": "2023-09-20T08:21:49.193",
+
+                                    "CreateUsername": "A0001821",
+
+									"QualityStatus": "Grade qualité : UNKNOWN, GOOD, ACCEPTABLE, BAD",
+
+									"QualitySymptomCode" : "Null si pas BAD",
+
+									"Comment" : "Commentaire associé au statut ACCEPTABLE, BAD",
+
+                                    "DeviationName": null
+
+                                }
+
+                            ]
+
+                        }
+
+                    }
+
+                ]
+
+            }
+
+        ]
+
+    }
+
+]
