@@ -38,7 +38,7 @@ def write_CSV_OutputFile(all_data):
             writer.writerow(row)
 
 
-def main(json_file):
+def main(json_file, prefixe_tagName):
     # Chargement du fichier input du MES (format Json)
     data = load_Json(json_file)
 
@@ -47,24 +47,29 @@ def main(json_file):
 
     # Informations du Work Order (WO)
     WorkOrder_StartDate = get_WO_Dates(data, "StartDate")
-    Reference_value = data[0]['Reference']
-    all_data.append(["tag_name_reference", Reference_value, WorkOrder_StartDate])
+    Reference_Value = data[0]['Reference']
+    Reference_TagName = prefixe_tagName + 'Reference'
+
+    all_data.append([Reference_TagName, Reference_Value, WorkOrder_StartDate])
 
     # Informations des jobs
     for job in data[0]['DataHeader']:
         job_TimeStamp = job['Properties'][0]['Value']
-        jobID = job['JobID']
-        segmentName = job['SegmentName']
+        jobID_Value = job['JobID']
+        JobID_TagName = prefixe_tagName + 'JobID'
+        segmentName_Value = job['SegmentName']
+        segmentName_TagName = prefixe_tagName + 'SegmentName'
 
-        all_data.append(["JobID_tagName", jobID, job_TimeStamp])
-        all_data.append(['SegmentName_tagName', segmentName, job_TimeStamp])
+        all_data.append([JobID_TagName, jobID_Value, job_TimeStamp])
+        all_data.append([segmentName_TagName, segmentName_Value, job_TimeStamp])
 
         # Informations des propriétés des jobs
         for property in job['Properties']:
-            propertyName = property['PropertyID'] #Ex: STARTDATE, ENDDATE, NUMOFDAY, TYPEOFPROD, DUREEPROD
-            propertyValue = property['Value']
+            property_Name = property['PropertyID'] #Ex: STARTDATE, ENDDATE, NUMOFDAY, TYPEOFPROD, DUREEPROD
+            property_TagName = prefixe_tagName + property_Name
+            property_Value = property['Value']
 
-            all_data.append([propertyName + "propertyName_tagName", propertyValue, job_TimeStamp])
+            all_data.append([property_TagName, property_Value, job_TimeStamp])
 
     write_CSV_OutputFile(all_data)
     input("Fin de la fonction principale, appuyer sur une touche pour fermer")
@@ -72,4 +77,4 @@ def main(json_file):
 
 # Call the main method properly
 if __name__ == "__main__":
-    main('JSON_Tracabilite.json')
+    main('JSON_Tracabilite.json', 'ACCBBD_V1_MES_MIA_Ligne1_')
