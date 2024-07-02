@@ -179,7 +179,7 @@ def generate_PI_tags_list(output_folder, log_folder):
     logging.info(f"Tags list written to: {outputfile}")
 
 def main(input_json_folder, output_folder, backup_folder, log_folder, suffixe):
-    #os.system('clear')
+    os.system('clear')
     create_folders_if_not_exist([input_json_folder, output_folder, backup_folder, log_folder])
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=os.path.join(os.path.dirname(__file__), log_folder, 'SplitMESFiles_logs_' + datetime.datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + '.log'))
     logging.info(f"## Starting script {os.path.basename(__file__)} ##")
