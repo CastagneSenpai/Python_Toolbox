@@ -141,6 +141,7 @@ def process_file(file_path, output_folder, backup_folder, args):
                     all_data.append([property_value, property_timestamp, property_tag_name])
                 else:
                     all_data.append([property_value, job_timestamp, property_tag_name])
+            #for data in job['Data']
 
         file_name = f'MES_to_UFL_{work_center_info["process_type"]}{work_center_info["polarity"]}_{work_center_info["equipment"]}{work_center_info["equipment_code"]}_{datetime.datetime.now().strftime("%Y-%m-%dT%H-%M-%S-%f")[:-3]}'
         write_csv_output_file(all_data, file_name, output_folder)

@@ -1,1 +1,422 @@
-[{"Reference":"110MXG242500005","ReferenceType":"wo","MessageType":"Genealogy","WorkCenterName":"110B1PA1_MIA00100_PDMX11","CreateDate":"2024-06-16T17:01:52.4533333Z","BomID":"CHM001258","BomVersion":"A","DataHeader":[{"JobID":"110MXG242500005_0010_0","SegmentName":"110B1PA1_MIA00100_PDMX11","Properties":[{"PropertyID":"STARTDATE","Value":"2024-06-18T04:20:00","Username":"ACC-EMOTION\\acc_svc_nr_asp_u_com","SaveDate":"2024-06-18T09:52:09Z"},{"PropertyID":"ENDDATE","Value":"2024-06-18T09:52:00","Username":"ACC-EMOTION\\acc_svc_nr_asp_u_com","SaveDate":"2024-06-18T09:52:09Z"},{"PropertyID":"NUMOFDAY","Value":"1","Username":"ACC-EMOTION\\acc_svc_nr_asp_u_com","SaveDate":"2024-06-18T09:52:09Z"},{"PropertyID":"TYPEOFPROD","Value":"PRODUCTION","Username":"ACC-EMOTION\\acc_svc_nr_asp_u_com","SaveDate":"2024-06-18T09:52:09Z"},{"PropertyID":"DUREEPROD","Value":"05:32","Username":"ACC-EMOTION\\acc_svc_nr_asp_u_com","SaveDate":"2024-06-18T09:52:09Z"}],"Data":[{"Lot":{"LotID":"240327-733401","SublotID":null,"MaterialID":"CHP001218","ItemCategory":"raw_material","Unit":"kg","Supplier":"","ExpiryDate":"2024-12-20T22:59:59Z","Properties":null,"MaterialTracabilities":[{"MaterialTracabilityID":12438,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"41.100","CreateDate":"2024-06-18T09:47:24.0566667Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"240329-243300108-4","SublotID":null,"MaterialID":"CHP001209","ItemCategory":"raw_material","Unit":"kg","Supplier":"","ExpiryDate":"2025-03-06T22:59:59Z","Properties":null,"MaterialTracabilities":[{"MaterialTracabilityID":12360,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"70.610","CreateDate":"2024-06-18T05:26:24.5500000Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"240411-243300226-2","SublotID":null,"MaterialID":"CHP001207","ItemCategory":"raw_material","Unit":"kg","Supplier":"","ExpiryDate":"2026-03-20T22:59:59Z","Properties":null,"MaterialTracabilities":[{"MaterialTracabilityID":12358,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"118.000","CreateDate":"2024-06-18T05:24:21.1600000Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"240507-233301120-4","SublotID":null,"MaterialID":"CHP001207","ItemCategory":"raw_material","Unit":"kg","Supplier":"","ExpiryDate":"2026-02-18T22:59:59Z","Properties":null,"MaterialTracabilities":[{"MaterialTracabilityID":12359,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"135.880","CreateDate":"2024-06-18T05:25:17.8866667Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"240507-233301209-2","SublotID":null,"MaterialID":"CHP001208","ItemCategory":"raw_material","Unit":"kg","Supplier":"","ExpiryDate":"2025-12-24T22:59:59Z","Properties":null,"MaterialTracabilities":[{"MaterialTracabilityID":12356,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"11.000","CreateDate":"2024-06-18T05:21:40.1133333Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"24051502HO19CH6023.","SublotID":null,"MaterialID":"CHP001070","ItemCategory":"raw_material","Unit":"kg","Supplier":"","ExpiryDate":"2024-09-30T21:59:59Z","Properties":null,"MaterialTracabilities":[{"MaterialTracabilityID":12403,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"59.250","CreateDate":"2024-06-18T08:20:53.2233333Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"240515-243300226-5","SublotID":null,"MaterialID":"CHP001208","ItemCategory":"raw_material","Unit":"kg","Supplier":"","ExpiryDate":"2026-03-15T22:59:59Z","Properties":null,"MaterialTracabilities":[{"MaterialTracabilityID":12357,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"581.250","CreateDate":"2024-06-18T05:23:27.1666667Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"240618_DIW","SublotID":null,"MaterialID":"COP000009","ItemCategory":"raw_material","Unit":"kg","Supplier":"","ExpiryDate":null,"Properties":[{"Property":{"PropertyID":"CONDUCTIVITY","Description":"Conductivité (µS\/cm)","Value":null}},{"Property":{"PropertyID":"EXPIRATION_DATE","Description":"Date d'expiration d'origine si produit périmé sous dérogation","Value":null}}],"MaterialTracabilities":[{"MaterialTracabilityID":12364,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"60.290","CreateDate":"2024-06-18T05:31:45.6700000Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"C001031DN101P241590001#","SublotID":null,"MaterialID":"CHM001031","ItemCategory":"semi_finished","Unit":"kg","Supplier":"","ExpiryDate":"2024-06-27T21:59:59Z","Properties":[{"Property":{"PropertyID":"VISCO_AVANT_DEGAZ_GA","Description":"Viscosité (cPo)","Value":"1362.0"}},{"Property":{"PropertyID":"DENSITE_AVANT_DEGAZ_GA","Description":"Densité (g\/cm3)","Value":"1.004"}},{"Property":{"PropertyID":"EXTRAIT_SEC_AVANT_DEGAZ_GA","Description":"Extrait sec (%)","Value":"1.69"}}],"MaterialTracabilities":[{"MaterialTracabilityID":12361,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"418.340","CreateDate":"2024-06-18T05:27:06.8500000Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"C001031DN101P241660001#","SublotID":null,"MaterialID":"CHM001031","ItemCategory":"semi_finished","Unit":"kg","Supplier":"","ExpiryDate":"2024-07-04T21:59:59Z","Properties":[{"Property":{"PropertyID":"VISCO_AVANT_DEGAZ_GA","Description":"Viscosité (cPo)","Value":"1470.0"}},{"Property":{"PropertyID":"DENSITE_AVANT_DEGAZ_GA","Description":"Densité (g\/cm3)","Value":"0.995"}},{"Property":{"PropertyID":"EXTRAIT_SEC_AVANT_DEGAZ_GA","Description":"Extrait sec (%)","Value":"1.74"}}],"MaterialTracabilities":[{"MaterialTracabilityID":12362,"Type":"CONSUME","FinishedGoodLotID":"C001258AN101P241700001#","FinishedGoodSublotID":null,"Quantity":"206.930","CreateDate":"2024-06-18T05:28:29.8133333Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}},{"Lot":{"LotID":"C001258AN101P241700001#","SublotID":null,"MaterialID":"CHM001258","ItemCategory":"semi_finished","Unit":"kg","Supplier":"","ExpiryDate":"2024-06-21T09:49:00Z","Properties":[{"Property":{"PropertyID":"VISCO_AVANT_DEGAZ_A","Description":"Viscosité (cPo)","Value":"2163.0"}},{"Property":{"PropertyID":"EXTRAIT_SEC_AVANT_DEGAZ_A","Description":"Extrait sec (%)","Value":"55.16"}}],"MaterialTracabilities":[{"MaterialTracabilityID":8353,"Type":"PRODUCE","FinishedGoodLotID":null,"FinishedGoodSublotID":null,"Quantity":"1702.700","CreateDate":"2024-06-18T09:49:10.5666667Z","CreateUsername":"C0001716","QualityStatus":"GOOD","QualitySymptomCode":null,"Comment":null,"DeviationName":null}]}}]}]}]
+[
+    {
+        "Reference": "110MXG242500005",
+        "ReferenceType": "wo",
+        "MessageType": "Genealogy",
+        "WorkCenterName": "110B1PA1_MIA00100_PDMX11",
+        "CreateDate": "2024-06-16T17:01:52.4533333Z",
+        "BomID": "CHM001258",
+        "BomVersion": "A",
+        "DataHeader": [
+            {
+                "JobID": "110MXG242500005_0010_0",
+                "SegmentName": "110B1PA1_MIA00100_PDMX11",
+                "Properties": [
+                    {
+                        "PropertyID": "STARTDATE",
+                        "Value": "2024-06-18T04:20:00",
+                        "Username": "ACC-EMOTION\\acc_svc_nr_asp_u_com",
+                        "SaveDate": "2024-06-18T09:52:09Z"
+                    },
+                    {
+                        "PropertyID": "ENDDATE",
+                        "Value": "2024-06-18T09:52:00",
+                        "Username": "ACC-EMOTION\\acc_svc_nr_asp_u_com",
+                        "SaveDate": "2024-06-18T09:52:09Z"
+                    },
+                    {
+                        "PropertyID": "NUMOFDAY",
+                        "Value": "1",
+                        "Username": "ACC-EMOTION\\acc_svc_nr_asp_u_com",
+                        "SaveDate": "2024-06-18T09:52:09Z"
+                    },
+                    {
+                        "PropertyID": "TYPEOFPROD",
+                        "Value": "PRODUCTION",
+                        "Username": "ACC-EMOTION\\acc_svc_nr_asp_u_com",
+                        "SaveDate": "2024-06-18T09:52:09Z"
+                    },
+                    {
+                        "PropertyID": "DUREEPROD",
+                        "Value": "05:32",
+                        "Username": "ACC-EMOTION\\acc_svc_nr_asp_u_com",
+                        "SaveDate": "2024-06-18T09:52:09Z"
+                    }
+                ],
+                "Data": [
+                    {
+                        "Lot": {
+                            "LotID": "240327-733401",
+                            "SublotID": null,
+                            "MaterialID": "CHP001218",
+                            "ItemCategory": "raw_material",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2024-12-20T22:59:59Z",
+                            "Properties": null,
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12438,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "41.100",
+                                    "CreateDate": "2024-06-18T09:47:24.0566667Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "240329-243300108-4",
+                            "SublotID": null,
+                            "MaterialID": "CHP001209",
+                            "ItemCategory": "raw_material",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2025-03-06T22:59:59Z",
+                            "Properties": null,
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12360,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "70.610",
+                                    "CreateDate": "2024-06-18T05:26:24.5500000Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "240411-243300226-2",
+                            "SublotID": null,
+                            "MaterialID": "CHP001207",
+                            "ItemCategory": "raw_material",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2026-03-20T22:59:59Z",
+                            "Properties": null,
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12358,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "118.000",
+                                    "CreateDate": "2024-06-18T05:24:21.1600000Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "240507-233301120-4",
+                            "SublotID": null,
+                            "MaterialID": "CHP001207",
+                            "ItemCategory": "raw_material",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2026-02-18T22:59:59Z",
+                            "Properties": null,
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12359,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "135.880",
+                                    "CreateDate": "2024-06-18T05:25:17.8866667Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "240507-233301209-2",
+                            "SublotID": null,
+                            "MaterialID": "CHP001208",
+                            "ItemCategory": "raw_material",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2025-12-24T22:59:59Z",
+                            "Properties": null,
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12356,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "11.000",
+                                    "CreateDate": "2024-06-18T05:21:40.1133333Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "24051502HO19CH6023.",
+                            "SublotID": null,
+                            "MaterialID": "CHP001070",
+                            "ItemCategory": "raw_material",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2024-09-30T21:59:59Z",
+                            "Properties": null,
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12403,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "59.250",
+                                    "CreateDate": "2024-06-18T08:20:53.2233333Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "240515-243300226-5",
+                            "SublotID": null,
+                            "MaterialID": "CHP001208",
+                            "ItemCategory": "raw_material",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2026-03-15T22:59:59Z",
+                            "Properties": null,
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12357,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "581.250",
+                                    "CreateDate": "2024-06-18T05:23:27.1666667Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "240618_DIW",
+                            "SublotID": null,
+                            "MaterialID": "COP000009",
+                            "ItemCategory": "raw_material",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": null,
+                            "Properties": [
+                                {
+                                    "Property": {
+                                        "PropertyID": "CONDUCTIVITY",
+                                        "Description": "Conductivité (µS\/cm)",
+                                        "Value": null
+                                    }
+                                },
+                                {
+                                    "Property": {
+                                        "PropertyID": "EXPIRATION_DATE",
+                                        "Description": "Date d'expiration d'origine si produit périmé sous dérogation",
+                                        "Value": null
+                                    }
+                                }
+                            ],
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12364,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "60.290",
+                                    "CreateDate": "2024-06-18T05:31:45.6700000Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "C001031DN101P241590001#",
+                            "SublotID": null,
+                            "MaterialID": "CHM001031",
+                            "ItemCategory": "semi_finished",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2024-06-27T21:59:59Z",
+                            "Properties": [
+                                {
+                                    "Property": {
+                                        "PropertyID": "VISCO_AVANT_DEGAZ_GA",
+                                        "Description": "Viscosité (cPo)",
+                                        "Value": "1362.0"
+                                    }
+                                },
+                                {
+                                    "Property": {
+                                        "PropertyID": "DENSITE_AVANT_DEGAZ_GA",
+                                        "Description": "Densité (g\/cm3)",
+                                        "Value": "1.004"
+                                    }
+                                },
+                                {
+                                    "Property": {
+                                        "PropertyID": "EXTRAIT_SEC_AVANT_DEGAZ_GA",
+                                        "Description": "Extrait sec (%)",
+                                        "Value": "1.69"
+                                    }
+                                }
+                            ],
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12361,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "418.340",
+                                    "CreateDate": "2024-06-18T05:27:06.8500000Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "C001031DN101P241660001#",
+                            "SublotID": null,
+                            "MaterialID": "CHM001031",
+                            "ItemCategory": "semi_finished",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2024-07-04T21:59:59Z",
+                            "Properties": [
+                                {
+                                    "Property": {
+                                        "PropertyID": "VISCO_AVANT_DEGAZ_GA",
+                                        "Description": "Viscosité (cPo)",
+                                        "Value": "1470.0"
+                                    }
+                                },
+                                {
+                                    "Property": {
+                                        "PropertyID": "DENSITE_AVANT_DEGAZ_GA",
+                                        "Description": "Densité (g\/cm3)",
+                                        "Value": "0.995"
+                                    }
+                                },
+                                {
+                                    "Property": {
+                                        "PropertyID": "EXTRAIT_SEC_AVANT_DEGAZ_GA",
+                                        "Description": "Extrait sec (%)",
+                                        "Value": "1.74"
+                                    }
+                                }
+                            ],
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 12362,
+                                    "Type": "CONSUME",
+                                    "FinishedGoodLotID": "C001258AN101P241700001#",
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "206.930",
+                                    "CreateDate": "2024-06-18T05:28:29.8133333Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Lot": {
+                            "LotID": "C001258AN101P241700001#",
+                            "SublotID": null,
+                            "MaterialID": "CHM001258",
+                            "ItemCategory": "semi_finished",
+                            "Unit": "kg",
+                            "Supplier": "",
+                            "ExpiryDate": "2024-06-21T09:49:00Z",
+                            "Properties": [
+                                {
+                                    "Property": {
+                                        "PropertyID": "VISCO_AVANT_DEGAZ_A",
+                                        "Description": "Viscosité (cPo)",
+                                        "Value": "2163.0"
+                                    }
+                                },
+                                {
+                                    "Property": {
+                                        "PropertyID": "EXTRAIT_SEC_AVANT_DEGAZ_A",
+                                        "Description": "Extrait sec (%)",
+                                        "Value": "55.16"
+                                    }
+                                }
+                            ],
+                            "MaterialTracabilities": [
+                                {
+                                    "MaterialTracabilityID": 8353,
+                                    "Type": "PRODUCE",
+                                    "FinishedGoodLotID": null,
+                                    "FinishedGoodSublotID": null,
+                                    "Quantity": "1702.700",
+                                    "CreateDate": "2024-06-18T09:49:10.5666667Z",
+                                    "CreateUsername": "C0001716",
+                                    "QualityStatus": "GOOD",
+                                    "QualitySymptomCode": null,
+                                    "Comment": null,
+                                    "DeviationName": null
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
